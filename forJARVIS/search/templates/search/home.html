@@ -1,0 +1,7 @@
+{% extends "search/header.html" %}
+
+{% block content %}
+  {% for content in questions %}
+    <p style="text-align:right;">{{content}}</p>
+  {% endfor %}
+{% endblock %}
